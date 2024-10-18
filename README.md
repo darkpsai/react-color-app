@@ -21,39 +21,46 @@ The Color Previewer application is a simple React-TypeScript project that fetche
 **Prerequisites**
 Requires you to have Git, Node.js and npm installed on your machine. You can download Node.js from the [Node.js official website](https://nodejs.org/en).
 
-
 ### Steps
 
 **Clone the Repository or Create a New React App**
 
 Cloning
+
 ```bash
 git clone https://github.com/darkpsai/react-color-app.git
 cd react-color-app
 ```
 Create react app
+
 ```bash
 npx create-react-app react-color-app --template typescript
 cd react-color-app
 ```
 **Install Tailwind CSS**
+
 See here on how to install Tailwind: [Get started with Tailwind CSS](https://tailwindcss.com/docs/installation)
 
 **Installation of Dependencies**
+
 Install axios using npm.
 
 **Create the ColorPreviewer component**
+
 Create a new file named <code>ColorPreviewer.tsx</code> in the <code>src/components</code> directory and add the component code.
 
 **Update the main application file**
+
 Modify <code>src/App.tsx</code> to import and use the <code>ColorPreview</code> component.
 
 **Running the Project**
+
 ```bash
 npm run start
 ```
 
 ## API
+
 The application fetches color data from the following endpoint:
 
 - Endpoint: https://api.prolook.com/api/colors/prolook
