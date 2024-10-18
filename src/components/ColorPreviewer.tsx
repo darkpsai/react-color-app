@@ -46,7 +46,7 @@ const ColorPreviewer: React.FC = () => {
   return (
     <div className="flex md:flex-row sm:flex-col flex-col justify-center py-4">
       <div className="md:w-1/3 sm:w-full flex flex-col">
-        <h2 className="text-xl font-bold mb-4">Colors</h2>
+        <h2 className="text-xl text-center font-bold mb-4">Colors</h2>
         <div className="overflow-y-auto h-[600px]">
           {colors.map((color) => (
             <div
@@ -67,7 +67,7 @@ const ColorPreviewer: React.FC = () => {
       <div className="md:w-[800px] sm:w-full px-4 md:mt-0 sm:mt-6 mt-6">
         {selectedColor ? (
           <div className="flex flex-col">
-            <h2 className="text-xl font-bold mb-4">Selected Color</h2>
+            <h2 className="text-xl text-center font-bold mb-4">Selected Color</h2>
             <div
               className={"flex flex-col mt-4 w-full h-[320px] border rounded items-center justify-center " + (COLOR_CODE_MAP.includes(selectedColor.color_code) ? 'text-black' : 'text-white')}
               style={{ backgroundColor: "#" + selectedColor.hex_code}}
