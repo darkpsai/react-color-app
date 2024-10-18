@@ -39,19 +39,19 @@ cd react-color-app
 ```
 **Install Tailwind CSS**
 
-See here on how to install Tailwind: [Get started with Tailwind CSS](https://tailwindcss.com/docs/installation)
+- See here on how to install Tailwind: [Get started with Tailwind CSS](https://tailwindcss.com/docs/installation)
 
 **Installation of Dependencies**
 
-Install axios using npm.
+- Install axios using npm.
 
 **Create the ColorPreviewer component**
 
-Create a new file named <code>ColorPreviewer.tsx</code> in the <code>src/components</code> directory and add the component code.
+- Create a new file named <code>ColorPreviewer.tsx</code> in the <code>src/components</code> directory and add the component code.
 
 **Update the main application file**
 
-Modify <code>src/App.tsx</code> to import and use the <code>ColorPreview</code> component.
+- Modify <code>src/App.tsx</code> to import and use the <code>ColorPreview</code> component.
 
 **Running the Project**
 
