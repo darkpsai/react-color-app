@@ -52,7 +52,7 @@ cd react-color-app
 
 **Update the main application file**
 
-- Modify <code>src/App.tsx</code> to import and use the <code>ColorPreview</code> component.
+- Modify <code>src/App.tsx</code> to import and use the <code>ColorPreviewer</code> component.
 
 **Running the Project**
 
