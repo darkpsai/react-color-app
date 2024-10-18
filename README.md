@@ -19,6 +19,7 @@ The Color Previewer application is a simple React-TypeScript project that fetche
 ## Installation
 
 **Prerequisites**
+
 Requires you to have Git, Node.js and npm installed on your machine. You can download Node.js from the [Node.js official website](https://nodejs.org/en).
 
 ### Steps
