@@ -6,7 +6,7 @@ import ColorPreviewer from "./components/ColorPreviewer";
 function App() {
   return (
     <main>
-      <div className="App">
+      <div className="px-4">
         <ColorPreviewer />
       </div>
     </main>

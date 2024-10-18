@@ -44,8 +44,8 @@ const ColorPreviewer: React.FC = () => {
   };
 
   return (
-    <div className="flex md:flex-row justify-center py-4 sm:flex-col">
-      <div className="w-1/3 flex flex-col">
+    <div className="flex md:flex-row sm:flex-col flex-col justify-center py-4">
+      <div className="md:w-1/3 sm:w-full flex flex-col">
         <h2 className="text-xl font-bold mb-4">Colors</h2>
         <div className="overflow-y-auto h-[600px]">
           {colors.map((color) => (
@@ -64,7 +64,7 @@ const ColorPreviewer: React.FC = () => {
           ))}
         </div>
       </div>
-      <div className="w-[800px] px-4">
+      <div className="md:w-[800px] sm:w-full px-4 md:mt-0 sm:mt-6 mt-6">
         {selectedColor ? (
           <div className="flex flex-col">
             <h2 className="text-xl font-bold mb-4">Selected Color</h2>
