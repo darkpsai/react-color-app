@@ -85,7 +85,7 @@ const ColorPreviewer: React.FC = () => {
           </div>
         ) : (
           <div className="flex flex-col">
-            <h2 className="text-xl font-bold mb-4">Select a color to preview.</h2>
+            <h2 className="text-xl text-center font-bold mb-4">Select a color to preview.</h2>
             <div className="flex flex-col mt-4 w-full h-[320px] border rounded items-center justify-center bg-transparent">
               <p className="text-black text-center py-3">name: null</p>
               <p className="text-black text-center py-3">hex: null</p>
